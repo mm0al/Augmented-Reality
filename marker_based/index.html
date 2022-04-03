@@ -11,6 +11,7 @@
     <!-- speech command component -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
     <script src="build/aframe-speech-command-component.js"></script> 
+    
 
     <body style="margin : 0px; overflow: hidden;">
         <a-scene
@@ -20,20 +21,15 @@
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
         <a-marker preset="hiro">
-        
-            <a-sphere position="0 1 -5" radius="0.5" color="#EF2D5E"></a-sphere>
-            <a-cylinder position="0 -0.5 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-            <a-entity position="0 2.25 -15" particle-system="preset: snow"></a-entity>
+         <a-sphere position="0 0 1" radius="0.5" color="#EF2D5E"></a-sphere>
+            <a-cylinder position="0 0 -1" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+            <a-entity position="0 2.25 -15" particle-system="preset: snow"></a-entity>  
         </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
-        
-        
-        
-   
-    
     </body>
-    
-    
 </html>
+    
+    
+
 
