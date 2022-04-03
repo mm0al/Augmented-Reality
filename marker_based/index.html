@@ -11,7 +11,6 @@
     <!-- speech command component -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
     <script src="build/aframe-speech-command-component.js"></script> 
-    
 
     <body style="margin : 0px; overflow: hidden;">
         <a-scene
@@ -22,8 +21,18 @@
   >
         <a-marker preset="hiro">
             <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 1.0" position="0 0 0" material="color: #4CC3D9"></a-entity>
+            <a-sphere position="0 1 -5" radius="0.5" color="#EF2D5E"></a-sphere>
+            <a-cylinder position="0 -0.5 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
         </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
+        
+        
+        
+   
+    
     </body>
+    
+    
 </html>
+
